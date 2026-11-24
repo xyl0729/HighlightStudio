@@ -1,0 +1,10 @@
+# Install PyTorch and torchvision matching your CUDA version first (see README.md).
+transformers==5.17.0
+accelerate==1.15.0
+bitsandbytes==0.50.2
+ultralytics==8.4.161
+scikit-learn==1.9.1
+joblib==1.6.0
+scipy==1.17.1
+pillow==12.3.0
+qwen-vl-utils==0.0.14

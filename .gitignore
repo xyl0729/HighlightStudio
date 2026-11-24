@@ -1,0 +1,48 @@
+# Python
+/__pycache__/
+**/__pycache__/
+*.py[cod]
+/.venv/
+/.deps/
+/.pytest_cache/
+
+# Local runtime state & user data
+/.work/
+/models/
+/data/
+/scratch/
+/logs/
+/outputs/
+.env
+.env.*
+
+# Media & large weight files (keep repo lightweight)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.jsonl
+*.safetensors
+*.ckpt
+*.pt
+*.npz
+*.joblib
+*.zip
+*.log
+
+# Explicitly keep bundled lightweight inference calibration & ranker weights
+!engine/learned/
+!engine/learned/*.joblib
+!engine/learned/*.json
+!engine/learned/*.npz
+!engine/signals/
+!engine/signals/**
+!engine/signals/**/*.npz
+!engine/signals/**/*.pt
+
+# Frontend build & dependencies
+node_modules/
+dist/
+*.tsbuildinfo
